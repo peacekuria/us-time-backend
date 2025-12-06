@@ -6,6 +6,11 @@ name = "pypi"
 [packages]
 sqlalchemy = "*"
 alembic = "*"
+python-dotenv = "*"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+pydantic = "*"
+requests = "*"
 
 [dev-packages]
 
