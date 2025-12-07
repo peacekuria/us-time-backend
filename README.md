@@ -19,6 +19,7 @@ This is the backend part of the US Time app. It provides the API for the fronten
 
 ## Tech used
 
+- FastAPI for the web server
 - SQLAlchemy for database
 - Alembic for database migrations
 - Pipenv for managing packages
