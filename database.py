@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Database URL from environment or default
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///mental_health.db")
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///us_time.db")
 
 # Create engine
 engine = create_engine(
